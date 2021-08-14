@@ -12,4 +12,6 @@
 
 <img src="https://github.com/VK2535/GripAugust21-Bank-System/blob/main/Screenshots/5.png" height="400" width="900">
 
+## Developed By Vicky Kumar Jha
+
 ## Thank You
