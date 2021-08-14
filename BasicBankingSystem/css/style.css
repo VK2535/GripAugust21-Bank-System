@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu';
+	
+}
+.navbar-brand{
+	font-size: 50px;
+
+}
+.intro{
+	background: rgb(106, 65, 255);
+}
+h1{
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+	text-align: center;
+}
+h3{
+	color:black;
+}
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:rgb(255, 187, 0); 
+	color:black;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition:all 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.2);
+	color:rgb(0, 255, 13);
+}
+button:hover{
+	color: #fff;
+	background-color:#ff0022;
+}
+footer{
+	color:rgb(0, 255, 13);
+	background-color:rgb(106, 65, 255);
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+.im{
+	width: 100vh;
+	height: 100vh;
+}
+.action{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Roboto Slab', serif;
+}
+
+.own{
+	font-size: 50px;
+	color: rgb(255, 217, 0);
+
+}
+
+.last{
+	font-size: 20px;
+	transition:all 0.5s;
+}
+.last b{
+	color:#e5ff00;
+}
+.last:hover{
+	font-size: 30px;
+	color: rgb(94, 255, 0);
+}
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+
+}
+
+

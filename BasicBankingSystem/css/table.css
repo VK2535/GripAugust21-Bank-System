@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: s;
+}
+h2{
+	font-size: 50px;
+}
+table{
+	font-size: 20px;
+	font-family: 'Ubuntu';
+	letter-spacing: 1.2px;
+}
+.table-striped{
+	background-color: rgb(9, 255, 0);
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #ffe600;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}

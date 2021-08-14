@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../img/bank_bg.jpg') no-repeat fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.glow1 {
+    font-size: 4rem;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow1 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow1 {
+    from {
+        text-shadow: 0 0 10px #030303, 0 0 20px #080808, 0 0 30px #0a0a0a, 0 0 40px #030303, 0 0 50px #070707, 0 0 60px #0f0f0f, 0 0 70px #000000;
+      }
+  
+      to {
+          text-shadow: 0 0 10px #3700ff, 0 0 20px #3700ff, 0 0 30px #3700ff, 0 0 40px #3700ff, 0 0 50px #3700ff, 0 0 60px #3700ff, 0 0 70px #3700ff;
+      }
+  }
+.glow2 {
+    margin-top:0.9rem;
+    margin-bottom:0.9rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow2 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow2 {
+    from {
+        text-shadow: 0 0 10px #71ff4d, 0 0 20px #71ff4d, 0 0 30px #71ff4d, 0 0 40px #71ff4d, 0 0 50px #71ff4d, 0 0 60px #71ff4d, 0 0 70px #71ff4d;
+    }
+
+    to {
+        text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+    }
+    
+  }
+
+  .imgb{
+      width:300px;
+      height:300px;
+      border-radius:150px ;
+  }
+
+  .m-2{
+    margin-top: 8px !important;
+    margin-left: 8px !important;
+  }
+  .m-3{
+     margin-left: 3rem !important;
+     margin-right: 2rem !important;
+     margin-top:2rem !important;
+  }
+
+  .btn{
+    width:170px;
+    height:70px;
+    border:3px solid black;
+    color:#fff;
+    background-color: rgb(250, 0, 0);
+    border-radius:20px;
+    box-shadow: inset 0 0 0 0 rgb(0, 255, 76);
+    transition: All 0.9s ease;
+    transition-delay: 0.1s;
+    font-size: 1.3rem;
+    outline: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    box-shadow: inset 170px 0px 0px 0px rgb(157, 255, 0);
+    cursor:pointer;
+    color:rgb(15, 15, 15);
+    border: 3px solid red;
+}
+
+.imgb2{
+    width:250px;
+    height:250px;
+    border-radius:125px ;
+    margin:auto 0;
+}
+
+.btnx{
+    width:170px;
+    height:50px;
+    border:3px solid black;
+    color:#fff;
+    background-color: rgb(250, 0, 0);
+    border-radius:20px;
+    box-shadow: inset 0 0 0 0 rgb(0, 255, 76);
+    transition: All 0.9s ease;
+    transition-delay: 0.1s;
+    font-size: 1.3rem;
+    outline: none;
+    cursor: pointer;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.par{
+    margin: 0.9rem;
+    font-size:1rem;
+    font-weight:200px;
+    line-height:30px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+   .btn{
+       width:150px;
+       height:50px;
+   }
+   .m-2{
+       margin-top: 8px !important;
+       margin-left: 8px !important;
+   }
+   .imgb{
+    width:250px;
+    height:250px;
+    border-radius:120px ;  
+   }
+   .imgb2{
+    width:240px;
+    height:240px;
+    border-radius:120px ;
+    margin:auto 0;
+}
+
+   
+   
+  }
+
+  @media screen and (max-width: 996px) {
+    .glow1{
+        font-size:3rem;
+    }
+    .glow2{
+        font-size:1.8rem;
+    }
+
+}
+  @media screen and (max-width: 566px) {
+    .glow1{
+        font-size:2rem;
+    }
+    .glow2{
+        font-size:1.5rem;
+    }
+    .imgb{
+        width:200px;
+        height:200px;
+        border-radius:100px ;  
+       }
+
+}
+
+@media screen and (max-width: 480px) {
+    .glow1{
+        font-size:2rem;
+    }
+    .glow2{
+        font-size:1.5rem;
+    }
+    .imgb2{
+        width:200px;
+        height:200px;
+        border-radius:100px ;
+        margin:auto 0;
+    }
+    .par{
+        margin: 0.7rem;
+        font-size:0.9rem;
+        font-weight:150px;
+        line-height:20px;
+    }
+    nav{
+        display:hidden;
+    }
+  }
